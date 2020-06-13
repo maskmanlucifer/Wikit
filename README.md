@@ -1,2 +1,2 @@
 # Wikit-Extension.
-A small extension to make topic searching easier.
+A small chrome extension to make topic searching easier.
