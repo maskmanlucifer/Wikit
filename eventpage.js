@@ -30,5 +30,6 @@ chrome.contextMenus.onClicked.addListener(function(clickdata)
              "height":screen.availHeight/2
         };
         chrome.windows.create(createData,function(){});
+        clickdata.flash('success_msg', 'Your search was successful.');
     }
 });
